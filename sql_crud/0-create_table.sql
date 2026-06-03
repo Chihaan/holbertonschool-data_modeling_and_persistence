@@ -1,9 +1,9 @@
 CREATE TABLE books (
-    id INTEGER PRIMARY KEY,
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
     title TEXT NOT NULL,
     author TEXT NOT NULL,
     genre TEXT NOT NULL,
-    stock INTEGER NOT NULL,
     price REAL NOT NULL,
+    stock INTEGER NOT NULL,
     published_year INTEGER NOT NULL
 );
